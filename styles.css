@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "FreePixel";
+    src: url("FreePixel.ttf") format("truetype");
+}
+
+:root {
+    --background-img: url("stars3.gif");
+    --background: #251a2d79;
+    --main-color-dk: #370c5a;
+    --main-color: #EB53D3;
+    --accent-1: #6eebff;
+    --accent-2: #d625e3;
+    --content-spacing: 5px;
+    --banner: url("miau.jpg");
+    --titleBars: #330b3f;
+    --text-color: white;
+    --border: 2px solid rgb(34, 34, 34);
+    --arrows: url('arrow.png');
+    --img-size: 150px;
+}
+
+html,
+body {
+    margin: 20;
+    box-sizing: border-box;
+    font-family: "FreePixel";
+}
+
+body {
+    background-image: var(--background-img);
+    color: var(--text-color);
+    background-attachment: fixed;
+}
+
+h3, p, ul, ol {
+    background-color: var(--background);
+}
+
+img {
+    width: 500px;
+    height: auto;
+}
+
+a {
+    color:var(--accent-2);
+}
